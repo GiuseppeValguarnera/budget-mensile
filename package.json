@@ -1,0 +1,22 @@
+{
+  "name": "budget-mensile",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web app per pianificare lo stipendio: suddivide automaticamente il budget tra le voci di spesa e tiene traccia di eccedenze e ammanchi.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  }
+}
